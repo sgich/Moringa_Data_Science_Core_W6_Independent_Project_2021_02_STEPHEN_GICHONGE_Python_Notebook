@@ -1,11 +1,11 @@
 # Data Science Core Independent Project Week 6
 
-## __Logistic Regression on Football Dataset__ ##
+## __Regression & Classification on Football Dataset__ ##
 
 
 ## _Description_ ##
 
-Mchezopesa Ltd (fictional Betting company) requires a football match predcition model of a game between team 1 and team 2 (any 2 teams input) that's based on who's home and who's away, and on whether or not the game is friendly (include rank in your training).
+Mchezopesa Ltd (fictional Betting company) requires a football match predcition model of a game between team 1 and team 2 (any 2 teams input) that's based on who's home and who's away, and on whether or not the game is friendly (include rank in your training). The first approach used is Polynomial regression and two models were built, then the other approach used was Logistic classification.
 
 
 
@@ -22,11 +22,11 @@ Mchezopesa Ltd (fictional Betting company) requires a football match predcition 
 * Seaborn Library
 * Standard Library
 * SciPy Library
-* Statsmodels Library
+* Sci-Kit Library
 
 
 ## _Motivation_ ##
-The logisitic regression was chosen for this case because the model design was based on predicting the Status of a match (Win, loss or Draw) from the home team perspective.
+Both Polynomila regression and logisitic classification were used for this case because the model design was based on predicting the scores (Home and Away teams) and the Status of a match (Win, loss or Draw) from the home team perspective.
 
 ## _Authors and Acknowledgment_ ##
 sgich
